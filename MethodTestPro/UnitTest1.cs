@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using AdvanceMethodPro;
 namespace MethodTestPro
 {
     [TestClass]
@@ -9,6 +9,12 @@ namespace MethodTestPro
         [TestMethod]
         public void TestMethod1()
         {
+            //Arrange
+
+            //Act
+
+            //Assert
+
         }
     }
 }
