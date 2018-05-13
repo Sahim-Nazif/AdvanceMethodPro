@@ -15,10 +15,28 @@ using System.Threading.Tasks;
  */
 namespace AdvanceMethodPro
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            int number1 = 50;
+            int number2 = 3;
+            int result = 0;
+            result = MultiplyNumbers(number1, number2);
+            Console.WriteLine(result);
+
+        }
+        /*
+         * Method multiplyin two values.
+         * Parameters are two integer types.
+         * Advance method type.
+         */
+
+
+        public static int MultiplyNumbers(int firstNumber, int secondNumber)
+        {
+            int result = firstNumber * secondNumber;
+            return result;
         }
     }
 }
